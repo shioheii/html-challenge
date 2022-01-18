@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <meta name="author" content="Bruno Shiohei" />
+  </head>
+
+  <body>
+    <fieldset>
+      <legend>Entre em contato</legend>
+
+      <p>
+        <strong>Assunto: </strong
+        ><select name="assunto" id="assunto">
+          <option value="1">Suporte</option>
+          <option value="2">Sugestão</option>
+          <option value="3">Reclamação</option>
+        </select>
+      </p>
+
+      <p>
+        <strong>Nome Completo</strong>
+        <br />
+        <input type="text" placeholder="Seu nome" />
+      </p>
+
+      <p>
+        <strong>E-mail:</strong>
+        <br />
+        <input type="email" placeholder="email@seudominio.com" />
+      </p>
+
+      <p>
+        <strong>Mensagem:</strong>
+        <br />
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+      </p>
+
+      <input type="checkbox" />Aceito receber novidades por e-mail.
+
+      <br /><br />
+      <button type="submit">Enviar</button>
+    </fieldset>
+  </body>
+</html>
